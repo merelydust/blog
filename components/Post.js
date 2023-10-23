@@ -38,7 +38,7 @@ export default function Post (props) {
           { 'max-w-2xl px-4': !fullWidth }
         )}>
           <div className="flex mb-4">
-            <a href={BLOG.socialLink || '#'} className="flex">
+            {/* <a href={BLOG.socialLink || '#'} className="flex">
               <Image
                 alt={BLOG.author}
                 width={24}
@@ -47,7 +47,8 @@ export default function Post (props) {
                 className="rounded-full"
               />
               <p className="ml-2 md:block">{BLOG.author}</p>
-            </a>
+            </a> */}
+            <p className="ml-2 md:block">{BLOG.author}</p>
             <span className="block">&nbsp;/&nbsp;</span>
           </div>
           <div className="mr-2 mb-4 md:ml-0">
