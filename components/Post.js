@@ -48,7 +48,7 @@ export default function Post (props) {
               />
               <p className="ml-2 md:block">{BLOG.author}</p>
             </a> */}
-            <p className="ml-2 md:block">{BLOG.author}</p>
+            <p className="md:block">{BLOG.author}</p>
             <span className="block">&nbsp;/&nbsp;</span>
           </div>
           <div className="mr-2 mb-4 md:ml-0">
